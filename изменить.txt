@@ -1,0 +1,7 @@
+margine : 0 auto;
+
+head+body
+
+font-family
+
+border

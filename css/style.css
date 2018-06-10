@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+	transition: all .1s ease-in;	
+}
+
+head + body {
+	background-color: #3B3F45;
+}
+
+.main-header {
+	background-color: #4A4F56;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+	color: #EB7E7F;
+	display: inline-block;
+	height: 6.5em;
+	text-align: center;
+	width: 100%;
+}
+
+.main-title{
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	padding-top: 0.75em;
+}
+
+[class^='che'] {
+	background-color: #88839E; 
+	color: #F9F9F9;
+	display: inline-block;
+	font-family: “Trebuchet MS”, Trebuchet, Arial, sans-serif;
+	font-size: 27px;
+	list-style: none;
+	text-align: left;
+	width: 30em;
+}
+
+li{
+	padding: 0.5em;
+}
+
+section {
+	text-align: center;
+}
+
+.checkbox li:nth-child(2n) {
+	background-color: #7A7593; 
+}
+
+.point-of-checkbox {
+	padding: 1em;
+}
+
+input[type=checkbox] {
+	margin-left: 0.6em;
+	transform: scale(1.7);
+}
+
+.checkbox {
+	transform: scale(0.8);
+}
+
+.checkbox li:hover {
+	background-color: #625E77;
+	border-style: solid;
+	border-width: 3px 0px 3px 0px;
+	padding-bottom: 10px; 
+	padding-top: 11px;
+}
+
+.checkbox li:active{
+	background-color: #EF887A;
+}
+
+.boxtext {
+	padding-left: 0.7em;
+}
+
+.button {
+	background-color: #4A4F56;
+	border: none;
+	border-radius: 8px;
+	color: #EB7E7F;
+	display: block;
+	font-size: 40px;
+	margin-left: 9em;
+	margin-top: 0.1em;
+	padding: 14px 205px;
+	text-align: center;
+}
+
+.button:hover {
+	box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.boxtext::after {
+	color: #CACBD4;
+	font-size: 19px;
+	padding-left: 0.7em;
+}
+
+.first-choice::after {
+	content: "(for the next lessons about CSS)";
+}
+
+.second-choice::after {
+	content: "(for more CSS manipulations)";
+}
+
+.third-choice:after {
+	content: "(because they are awesome)";
+}
+
+.fourth-choice:after {
+	content: "(hm... they always disappear)";
+}
+
+.sixth-choice:after {
+	content: "(for my friends)";
+}
+
+input:checked + label {
+	color: #CACBD4;
+	text-decoration: line-through;
+}
+
+
